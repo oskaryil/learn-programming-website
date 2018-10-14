@@ -5,7 +5,7 @@ import './index.css';
 import RoutingProvider from './providers/RoutingProvider';
 import * as serviceWorker from './serviceWorker';
 
-const App = ({ children }) => children;
+const App = ({ children }) => <div className="App">{children}</div>;
 
 ReactDOM.render(
   <App>
