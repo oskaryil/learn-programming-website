@@ -21,17 +21,17 @@ h4 {
   height: 100vh;
 }
 
+.home-title {
+  font-weight: bolder;
+  letter-spacing: 2px;
+}
+
 .home-subtitle {
-  max-width: 500px;
+  max-width: 510px;
   margin: auto;
   font-weight: normal;
   line-height: 28px;
   padding-top: 10px;
   padding-bottom: 20px;
   opacity: 0.7;
-}
-
-.home-title {
-  font-weight: bolder;
-  letter-spacing: 2px;
 }

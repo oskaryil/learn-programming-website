@@ -1,16 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter } from 'react-router-dom';
-import './index.css';
 import RoutingProvider from './providers/RoutingProvider';
 import * as serviceWorker from './serviceWorker';
+import Navbar from './elements/Navbar';
+import './index.css';
 
 const App = ({ children }) => <div className="App">{children}</div>;
 
 ReactDOM.render(
   <App>
     <BrowserRouter>
-      <RoutingProvider />
+      <div>
+        <Navbar />
+        <RoutingProvider />
+      </div>
     </BrowserRouter>
   </App>,
   document.getElementById('root')

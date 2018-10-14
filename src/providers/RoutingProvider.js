@@ -11,9 +11,10 @@ const RoutingProvider = () => (
           key={route.name}
           path={route.path}
           render={props => {
+            const routeActive = props.location.pathname === props.match.path;
             const Component = route.component;
 
-            return <Component {...props} />;
+            return <Component {...props} routeActive={routeActive} />;
           }}
         />
       ))}
