@@ -5,3 +5,4 @@ export { Column } from './Column';
 export { Image } from './Image';
 export { AppBar } from './AppBar';
 export { NavItem } from './NavItem';
+export { Modal } from './Modal';
