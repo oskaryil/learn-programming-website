@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Container from '../elements/Container';
-import { H1, H4, Row, Column, Image, MainEventButton } from '../atoms';
+import { H1, H2, H4, Row, Column, Image, MainEventButton, Modal } from '../atoms';
 import slackIcon from '../assets/slack-icon.png';
 
 class Home extends Component {
@@ -13,6 +13,7 @@ class Home extends Component {
 
     return (
       <Container>
+        <Modal><H2>Join now</H2></Modal>
         <Row>
           <Column span="12">
             <Image centered maxWidth="130" src={slackIcon} />
