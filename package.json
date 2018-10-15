@@ -7,7 +7,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "lint": "echo \"Running code check - lint\" && ./node_modules/.bin/eslint src",
+    "lint": "echo \"Running code check - lint\" && eslint src",
     "pre-commit": "npm run lint"
   },
   "dependencies": {
